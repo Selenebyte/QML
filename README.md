@@ -16,7 +16,7 @@ This GitHub page contains the code used in "Analyzing the Impact of Parameter Va
 
 ## About
 
-This project analyzes how parameter variations and noise impact a variational quantum machine learning model. It uses correlations between layers of the quantum models to show that they have an inverse relationship with the model's performance. The correlations used are Pearson, Distance, Cross, and Mutual information. The paper also describes how higher frequencies are inaccessible during training for an x-axis Pauli rotation and how high amounts of noise contribute to all frequencies' inaccessibility. Whereas low amounts of noise work as regularization during training.
+This project analyzes how parameter variations and noise impact a variational quantum machine learning model. It uses correlations between layers of the quantum models to show that they have an inverse relationship with the model's performance except mutual information. The correlations used are Pearson, Distance, Cross, and Mutual information. The paper also describes how higher frequencies are less accessible during training for an x-axis Pauli rotation and how high amounts of noise contribute to all frequencies' inaccessibility. Whereas low amounts of noise work as regularization during training.
 
 ## Installation
 
